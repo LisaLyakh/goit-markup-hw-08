@@ -1,0 +1,30 @@
+.benefits {
+  padding-bottom: 0;
+}
+.advantages {
+  display: flex;
+  list-style: none;
+}
+.advantages__top {
+  margin-bottom: 10px;
+  color: var(--theme-text-accent);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages__text {
+  color: var(--theme-text);
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+}
+.advantages__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: var(--theme-button-other);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

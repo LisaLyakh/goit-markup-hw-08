@@ -1,0 +1,41 @@
+.service__top {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-text-accent);
+}
+
+.service__examples {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.service__img {
+  display: inline;
+  position: relative;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.service__text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--theme-accent);
+  background-color: rgba(47, 48, 58, 0.8);
+}

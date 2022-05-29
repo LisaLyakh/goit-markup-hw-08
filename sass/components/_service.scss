@@ -1,3 +1,9 @@
+.doing {
+  padding-top: 0;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
 .service__top {
   margin-bottom: 50px;
   font-weight: 700;
@@ -10,15 +16,15 @@
 
 .service__examples {
   display: flex;
-  margin: 0;
-  padding-left: 0;
 }
 
 .service__img {
-  display: inline;
+  display: block;
   position: relative;
-  margin-right: 30px;
   list-style: none;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .service__text {
@@ -30,6 +36,7 @@
   height: 70px;
   left: 0;
   bottom: 0;
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

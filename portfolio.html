@@ -15,61 +15,58 @@
 <body>
  <header class="header">
    <div class="container header-container">
-     <nav class="navigation">
-       <a href="./index.html" class="navigation__logo"><span class="navigation__web">Web</span>Studio</a>
-       <div class="tablet-desktop-nav">
-         <nav class="nav">
-           <ul class="nav-tablet-list">
-             <li class="nav-tablet-list__item"><a href="./index.html" class="nav-tablet-list__link current">Студия</a>
-             </li>
-             <li class="nav-tablet-list__item"><a href="Портфолио" class="nav-tablet-list__link">Портфолио</a></li>
-             <li class="nav-tablet-list__item"><a href="Контакты" class="nav-tablet-list__link">Контакты</a></li>
-           </ul>
-         </nav>
-         <ul class="td-contact-list">
-           <li class="contact-list__item"><a href="info@devstudio.com" class="td-contact-list__link">
-             <svg class="contact-list__icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>info@devstudio.com</a></li>
-           <li class="td-contact-list__item"><a href="tel:+380961111111" class="td-contact-list__link">
-             <svg class="contact-list__icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>+38 096 111 11 11</a></li>
+     <a href="./index.html" class="navigation__logo"><span class="navigation__web">Web</span>Studio</a>
+     <div class="tablet-desktop-nav">
+       <nav class="nav">
+         <ul class="nav-tablet-list">
+           <li class="nav-tablet-list__item"><a href="./index.html" class="nav-tablet-list__link">Студия</a></li>
+           <li class="nav-tablet-list__item"><a href="./portfolio.html" class="nav-tablet-list__link current">Портфолио</a></li>
+           <li class="nav-tablet-list__item"><a href="Контакты" class="nav-tablet-list__link">Контакты</a></li>
          </ul>
-       </div>
-       <button type="button" class="menu-button js-open-menu">
-         <svg class="mobile-menu-icon" width="40" height="40" aria-label="Переключатель в мобильном меню">
-           <use class="icon-open" href="./images/mobile-menu.svg#icon-menu"></use>
+       </nav>
+       <ul class="tablet-contact-list">
+         <li class="contact-list__item"><a href="info@devstudio.com" class="tablet-contact-list__link">
+            <svg class="contact-list__icon" width="16" height="12">
+              <use href="./images/symbol-defs.svg#icon-mail"></use>
+            </svg> info@devstudio.com</a></li>
+         <li class="tablet-contact-list__item"><a href="tel:+380961111111" class="tablet-contact-list__link">
+            <svg class="contact-list__icon" width="10" height="16">
+              <use href="./images/symbol-defs.svg#icon-tel"></use>
+            </svg>+38 096 111 11 11</a></li>
+      </ul>
+    </div>
+    <button type="button" class="menu-button js-open-menu">
+      <svg class="mobile-menu-icon" width="40" height="40" aria-label="Переключатель в мобильном меню">
+        <use class="icon-open" href="./images/mobile-menu.svg#icon-menu"></use>
+      </svg>
+     </button>
+     <div class="mobile-menu js-menu-container">
+       <button type="button" class="menu-button menu-close-button js-close-menu">
+         <svg class="mobile-menu-icon " width="40" height="40" aria-label="Переключатель в мобильном меню">
+           <use class="icon-close" href="./images/mobile-menu.svg#icon-off"></use>
          </svg>
        </button>
-       <div class="mobile-menu js-menu-container">
-         <button type="button" class="menu-button menu-close-button js-close-menu">
-           <svg class="mobile-menu-icon " width="40" height="40" aria-label="Переключатель в мобильном меню">
-             <use class="icon-close" href="./images/mobile-menu.svg#icon-off"></use>
-           </svg>
-         </button>
-         <ul class="navigation__site-nav">
-           <li class="navigation__list"><a href="./index.html" class="navigation__link navigation__link--current">Студия</a></li>
+       <nav class="navigation">
+         <ul class="navigation__site">
+           <li class="navigation__list"><a href="./index.html"
+              class="navigation__link navigation__link--current">Студия</a></li>
            <li class="navigation__list"><a href="./portfolio.html" class="navigation__link">Портфолио</a></li>
            <li class="navigation__list"><a href="" class="navigation__link">Контакты</a></li>
          </ul>
-     </nav>
-     <ul class="link">
-       <li class="link__item">
-         <a href="mailto:info@devstudio.com" class="link__email">
-           <svg class="link__icon" width="16" height="12">
-             <use href="./images/symbol-defs.svg#icon-mail"></use>
-           </svg>info@example.com
-         </a>
-       </li>
-       <li class="link__item">
-         <a href="tel:+380961111111" class="link__tel">
-           <svg class="link__icon" width="10" height="16">
-             <use href="./images/symbol-defs.svg#icon-tel"></use>
-           </svg>+38 096 111 11 11
-         </a>
-       </li>
-     </ul>
+       </nav>
+       <ul class="list-mobile">
+         <li class="list-mobile__item"><a href="tel:+380961111111" class="list-mobile__link-tel">+38 096 111 11 11</a>
+         </li>
+         <li class="list-mobile__item"><a href="mailto:info@devstudio.com"
+            class="list-mobile__link-email">info@example.com</a></li>
+       </ul>
+       <ul class="mobile-social">
+         <li class="mobile-social__item"><a class="mobile-social__link" href="">Instagram</a></li>
+         <li class="mobile-social__item"><a class="mobile-social__link" href="">Twitter</a></li>
+         <li class="mobile-social__item"><a class="mobile-social__link" href="">Facebook</a></li>
+         <li class="mobile-social__item"><a class="mobile-social__link" href="">LinkedIn</a></li>
+       </ul>
+     </div>
    </div>
  </header>
  <main class="about-portfolio">
@@ -88,9 +85,9 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
                <picture>
-                 <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                 <source src="./images/tablet/portfolio-tablet-1x.jpg", src="./images/tablet/portfolio-tablet-2x.jpg" media="(min-width: 768px)" />
-                 <source src="./images/mobile/portfolio-mob-1x.jpg", src="./images/mobile/portfolio-mob-2x.jpg" media="(max-width: 767px)" />
+                 <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                 <source srcset="./images/tablet/portfolio-tablet-1x.jpg" srcset="./images/tablet/portfolio-tablet-2x.jpg" media="(min-width: 768px)" />
+                 <source srcset="./images/mobile/portfolio-mob-1x.jpg" srcset="./images/mobile/portfolio-mob-2x.jpg" media="(max-width: 767px)" />
                </picture>
                <img src="./images/portfolio-1.jpg" width="370" height="294" class="exx__img" alt="portfolio-1"> 
                <p class="exx__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -105,10 +102,10 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-1.jpg" , src="./images/tablet/portfolio-tablet-2x-1.jpg"
+                <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcset="./images/tablet/portfolio-tablet-1x-1.jpg" srcset="./images/tablet/portfolio-tablet-2x-1.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-1.jpg" , src="./images/mobile/portfolio-mob-2x-1.jpg"
+                <source srcset="./images/mobile/portfolio-mob-1x-1.jpg" srcset="./images/mobile/portfolio-mob-2x-1.jpg"
                   media="(max-width: 767px)" />
               </picture>
                <img src="./images/portfolio-2.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
@@ -124,10 +121,10 @@
            <a href="" class="exx__wrap">
             <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-2.jpg" , src="./images/tablet/portfolio-tablet-2x-2.jpg"
+                <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcset="./images/tablet/portfolio-tablet-1x-2.jpg" srcset="./images/tablet/portfolio-tablet-2x-2.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-2.jpg" , src="./images/mobile/portfolio-mob-2x-2.jpg"
+                <source srcset="./images/mobile/portfolio-mob-1x-2.jpg" srcset="./images/mobile/portfolio-mob-2x-2.jpg"
                   media="(max-width: 767px)" />
               </picture>
               <img src="./images/portfolio-3.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
@@ -143,13 +140,13 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-3.jpg" , src="./images/tablet/portfolio-tablet-2x-3.jpg"
+                <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcset="./images/tablet/portfolio-tablet-1x-3.jpg" srcset="./images/tablet/portfolio-tablet-2x-3.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-3.jpg" , src="./images/mobile/portfolio-mob-2x-3.jpg"
+                <source srcset="./images/mobile/portfolio-mob-1x-3.jpg" srcset="./images/mobile/portfolio-mob-2x-3.jpg"
                   media="(max-width: 767px)" />
               </picture>
-               <img src="./images/portfolio-4.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
+               <img srcset="./images/portfolio-4.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
                 <p class="exx__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
              </div>
              <div class="exx__box">
@@ -162,13 +159,13 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-4.jpg" , src="./images/tablet/portfolio-tablet-2x-4.jpg"
+                <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcset="./images/tablet/portfolio-tablet-1x-4.jpg" srcset="./images/tablet/portfolio-tablet-2x-4.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-4.jpg" , src="./images/mobile/portfolio-mob-2x-4.jpg"
+                <source srcset="./images/mobile/portfolio-mob-1x-4.jpg" srcset="./images/mobile/portfolio-mob-2x-4.jpg"
                   media="(max-width: 767px)" />
               </picture>
-               <img src="./images/portfolio-5.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
+               <img srcset="./images/portfolio-5.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
                 <p class="exx__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
              </div>
              <div class="exx__box">
@@ -181,13 +178,13 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-5.jpg" , src="./images/tablet/portfolio-tablet-2x-5.jpg"
+                <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcset="./images/tablet/portfolio-tablet-1x-5.jpg" srcset="./images/tablet/portfolio-tablet-2x-5.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-5.jpg" , src="./images/mobile/portfolio-mob-2x-5.jpg"
+                <source srcset="./images/mobile/portfolio-mob-1x-5.jpg" srcset="./images/mobile/portfolio-mob-2x-5.jpg"
                   media="(max-width: 767px)" />
               </picture>
-               <img src="./images/portfolio-6.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
+               <img srcset="./images/portfolio-6.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
                 <p class="exx__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
              </div>
              <div class="exx__box">
@@ -200,13 +197,13 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-6.jpg" , src="./images/tablet/portfolio-tablet-2x-6.jpg"
+                <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcset="./images/tablet/portfolio-tablet-1x-6.jpg" srcset="./images/tablet/portfolio-tablet-2x-6.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-6.jpg" , src="./images/mobile/portfolio-mob-2x-6.jpg"
+                <source srcset="./images/mobile/portfolio-mob-1x-6.jpg" srcset="./images/mobile/portfolio-mob-2x-6.jpg"
                   media="(max-width: 767px)" />
               </picture>
-               <img src="./images/portfolio-7.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
+               <img srcset="./images/portfolio-7.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
                 <p class="exx__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
              </div>
              <div class="exx__box">
@@ -219,13 +216,13 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-7.jpg" , src="./images/tablet/portfolio-tablet-2x-7.jpg"
+                <source srcsrcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcsrcset="./images/tablet/portfolio-tablet-1x-7.jpg" srcset="./images/tablet/portfolio-tablet-2x-7.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-7.jpg" , src="./images/mobile/portfolio-mob-2x-7.jpg"
+                <source srcsrcset="./images/mobile/portfolio-mob-1x-7.jpg" srcset="./images/mobile/portfolio-mob-2x-7.jpg"
                   media="(max-width: 767px)" />
               </picture>
-               <img src="./images/portfolio-8.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
+               <img srcsrcset="./images/portfolio-8.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
                 <p class="exx__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
              </div>
              <div class="exx__box">
@@ -238,13 +235,13 @@
            <a href="" class="exx__wrap">
              <div class="exx__overlay">
               <picture>
-                <source src="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
-                <source src="./images/tablet/portfolio-tablet-1x-8.jpg" , src="./images/tablet/portfolio-tablet-2x-8.jpg"
+                <source srcset="./images/portfolio-1.jpg" media="(min-width: 1200px)" />
+                <source srcset="./images/tablet/portfolio-tablet-1x-8.jpg" srcset="./images/tablet/portfolio-tablet-2x-8.jpg"
                   media="(min-width: 768px)" />
-                <source src="./images/mobile/portfolio-mob-1x-8.jpg" , src="./images/mobile/portfolio-mob-2x-8.jpg"
+                <source srcset="./images/mobile/portfolio-mob-1x-8.jpg" srcset="./images/mobile/portfolio-mob-2x-8.jpg"
                   media="(max-width: 767px)" />
               </picture>
-               <img src="./images/portfolio-9.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
+               <img srcset="./images/portfolio-9.jpg" width="370" height="294" class="exx__img" alt="portfolio-2">
                 <p class="exx__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
              </div>
              <div class="exx__box">
@@ -258,75 +255,83 @@
     </section>
  </main>
  <footer class="footer">
-  <div class="container footer-container">
-   <div class="footer-wrap">
-     <a href="/index.html" class="footer__logo"><span class="navigation__web">Web</span>Studio</a>
-     <address>
-       <ul class="footer-contact">
-         <li class="footer-contact__list"><a href="https://bit.ly/3pXMvUd" class="footer-contact__address" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-         <li class="footer-contact__list"><a href="mailto:info@devstudio.com" class="footer-contact__link">info@example.com</a></li>
-         <li class="footer-contact__list"><a href="tel:+380961111111" class="footer-contact__link">+38 096 111 11 11</a></li>
-       </ul>
-     </address>
-   </div>
-   <div class="footer-social">
-     <p class="footer-social__text">присоединяйтесь</p>
-     <ul class="footer-social__list">
-       <li class="footer-social__item">
-         <a href="" class="footer-social__svg" >
-           <svg class="footer-social__icon" width="20" height="20">
-             <use href="./images/symbol-defs.svg#icon-instagram"></use>
-           </svg>
-         </a>
-       <li class="footer-social__item">
-         <a href="" class="footer-social__svg">
-           <svg class="footer-social__icon" width="20" height="20">
-               <use href="./images/symbol-defs.svg#icon-twitter"></use>
-           </svg>
-         </a>
-       </li>
-       <li class="footer-social__item">
-         <a href="" class="footer-social__svg">
-           <svg class="footer-social__icon" width="20" height="20">
-             <use href="./images/symbol-defs.svg#icon-facebook"></use>
-           </svg>
-         </a>
-       </li>
-       <li class="footer-social__item">
-         <a href="" class="footer-social__svg">
-           <svg class="footer-social__icon" width="20" height="20">
-             <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-           </svg>
-         </a>
-       </li>
-     </ul>
-   </div>
-   <div class="subscribe desktop">
-     <form>
-       <p class="subscribe__text">Подпишитесь на рассылку</p>
-       <div class="subcribe__wrap">
-         <input type="email" class="subcribe__email" name="email-footer" placeholder="Email">
-         <button class="subcribe__button"  type="submit">
-           Подписаться
-           <svg class="subcribe__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-             <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white" />
-           </svg>
-         </button>
+   <div class="container footer-container">
+     <div class="footer_wrap">
+       <address class="address">
+         <a href="/index.html" class="footer__logo"><span class="navigation__web">Web</span>Studio</a>
+         <ul class="footer-contact">
+           <li class="footer-contact__list"><a href="https://bit.ly/3pXMvUd" class="footer-contact__address"
+               target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+           <li class="footer-contact__list"><a href="mailto:info@devstudio.com"
+               class="footer-contact__link">info@example.com</a></li>
+           <li class="footer-contact__list"><a href="tel:+380961111111" class="footer-contact__link">+38 096 111 11
+               11</a></li>
+         </ul>
+       </address>
+       <div class="footer-social">
+         <p class="footer-social__text">присоединяйтесь</p>
+         <ul class="footer-social__list">
+           <li class="footer-social__item">
+             <a href="" class="footer-social__svg">
+               <svg class="footer-social__icon" width="20" height="20">
+                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
+               </svg>
+             </a>
+           <li class="footer-social__item">
+             <a href="" class="footer-social__svg">
+               <svg class="footer-social__icon" width="20" height="20">
+                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
+               </svg>
+             </a>
+           </li>
+           <li class="footer-social__item">
+             <a href="" class="footer-social__svg">
+               <svg class="footer-social__icon" width="20" height="20">
+                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
+               </svg>
+             </a>
+           </li>
+           <li class="footer-social__item">
+             <a href="" class="footer-social__svg">
+               <svg class="footer-social__icon" width="20" height="20">
+                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+               </svg>
+             </a>
+           </li>
+         </ul>
        </div>
-       <div class="subcribe-tablet tab">
-         <p class="subscribe__text">Подпишитесь на рассылку</p>
-         <div class="subcribe__wrap">
+     </div>
+     <div class="footer-form">
+       <form class="subscribe-form">
+         <div class="subscribe-form-footer">
+           <p class="subscribe__text">Подпишитесь на рассылку</p>
            <input type="email" class="subcribe__email" name="email-footer" placeholder="Email">
-           <button class="subcribe__button" type="submit">Подписаться
-             <svg class="subcribe__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white" />
+           <button class="subcribe__button" type="submit"> Подписаться
+             <svg class="subcribe__svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+               <path
+                 d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
+                 fill="white" />
              </svg>
            </button>
          </div>
-       </div>
-      </form>
+         <div class="subcribe-tablet tab">
+           <p class="subscribe__text">Подпишитесь на рассылку</p>
+           <div class="subcribe__wrap">
+             <input type="email" class="subcribe-tablet__email" name="email-footer" placeholder="Email">
+             <button class="subcribe__button-tab" type="submit">Подписаться
+               <svg class="subcribe__svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                 <path
+                   d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
+                   fill="white" />
+               </svg>
+             </button>
+           </div>
+         </div>
+       </form>
      </div>
-   </div> 
+   </div>
  </footer>
 </body>
 </html>
